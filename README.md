@@ -1,3 +1,12 @@
+# Note
+To make it work with recent Rust compiler, first roll back it to a previous rust  version 
+
+```
+rustup default 1.56.0
+```
+
+To evaluate, locate to the e2e folder and run ./e2e.sh
+
 # SNARK setup operator
 
 The operator is responsible for monitoring and verifying the operation of the coordinator.
